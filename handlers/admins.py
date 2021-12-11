@@ -41,7 +41,7 @@ BACK_BUTTON = InlineKeyboardMarkup(
 # remove the ( # ) if you want the auto del cmd feature is on
 
 
-@Client.on_message(command(["reload", f"reload@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["reloads", f"reloads@{BOT_USERNAME}"]) & other_filters)
 async def update_admin(client, message):
     global admins
     new_admins = []
@@ -110,7 +110,7 @@ async def resume(_, message: Message):
         )
 
 
-@Client.on_message(command(["end", f"end@{BOT_USERNAME}", "stop", f"end@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["ends", f"ends@{BOT_USERNAME}", "stop", f"end@{BOT_USERNAME}"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
