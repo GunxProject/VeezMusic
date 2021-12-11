@@ -45,7 +45,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/VeezMusic"
+                        "🌐 IKLAN", url="https://Google.com"
                     )
                 ],
             ]
@@ -86,7 +86,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 🎧 [ VOICE CHAT PLAY CMD ]
 
-/play (song name) - play song from youtube
+/Batee (song name) - play song from youtube
 /ytp (song name) - play song directly from youtube 
 /stream (reply to audio) - play song using audio file
 /playlist - show the list song in queue
@@ -108,7 +108,7 @@ async def cbadvanced(_, query: CallbackQuery):
         f"""🏮 **here is the advanced commands**
 
 /start (in group) - see the bot alive status
-/reload - reload bot and refresh the admin list
+/reloads - reload bot and refresh the admin list
 /ping - check the bot ping status
 /uptime - check the bot uptime status
 /id - show the group/user id & other
@@ -129,7 +129,7 @@ async def cbadmin(_, query: CallbackQuery):
 /pause - pause the music streaming
 /resume - resume the music was paused
 /skip - skip to the next song
-/end - stop music streaming
+/ends - stop music streaming
 /join - invite userbot join to your group
 /leave - order the userbot to leave your group
 /auth - authorized user for using music bot
@@ -313,7 +313,7 @@ async def cblocal(_, query: CallbackQuery):
 
 🎧 [ VOICE CHAT PLAY CMD ]
 
-/play (song name) - play song from youtube
+/Batee (song name) - play song from youtube
 /ytp (song name) - play song directly from youtube 
 /stream (reply to audio) - play song using audio file
 /playlist - show the list song in queue
@@ -335,7 +335,7 @@ async def cbadven(_, query: CallbackQuery):
         f"""🏮 **here is the advanced commands**
 
 /start (in group) - see the bot alive status
-/reload - reload bot and refresh the admin list
+/reloads - reload bot and refresh the admin list
 /ping - check the bot ping status
 /uptime - check the bot uptime status
 /id - show the group/user id & other
@@ -356,7 +356,7 @@ async def cblamp(_, query: CallbackQuery):
 /pause - pause the music streaming
 /resume - resume the music was paused
 /skip - skip to the next song
-/end - stop music streaming
+/ends - stop music streaming
 /join - invite userbot join to your group
 /leave - order the userbot to leave your group
 /auth - authorized user for using music bot
@@ -434,7 +434,7 @@ async def cmdsyntax(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**Command Syntax** to play music on **Voice Chat:**
 
-• `/play (query)` - for playing music via youtube
+• `/batee (query)` - for playing music via youtube
 • `/ytp (query)` - for playing music directly via youtube
 
 ⚡ __Powered by {BOT_NAME}__""",
